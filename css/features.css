@@ -1,0 +1,31 @@
+.decor {
+    background-color: #f4f4fd;
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+}
+
+.features-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+}
+.features-list {
+    display: flex;
+    gap: 24px;
+}
+.features-item {
+    max-width: 264px;
+}
+.features-text {
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
