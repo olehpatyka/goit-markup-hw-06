@@ -1,23 +1,29 @@
 .footer {
     background-color: #2e2f42;
-    padding: 100px 141px;
+    padding: 98px 0;
 }
 .footer .container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
 }
 
 .logo.light {
     margin-bottom: 16px;
+    text-align: center;
 }
+
 .footer-text {
     color: #f4f4fd;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    max-width: 264px;
+    max-width: 100%;
 }
+
 .footer-socials {
-    margin-left: 120px;
 }
+
 .footer-blocktitle {
     font-weight: 500;
     font-size: 16px;
@@ -26,6 +32,8 @@
     letter-spacing: 0.02em;
     color: #ffffff;
     margin-bottom: 16px;
+
+    text-align: center;
 }
 
 .footer .socials-list {
@@ -38,13 +46,11 @@
     background-color: #31d0aa;
 }
 
-.footer-form-block {
-    margin-left: auto;
-}
 .footer-form {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    gap: 24px;
+    gap: 16px;
 }
 
 .footer-field-input {
@@ -73,13 +79,7 @@
     border-color: #31d0aa;
 }
 
-/* .btn-subscribe-wrapper {
-    position: relative;
-} */
-
 .footer-form-btn {
-    /* position: relative; */
-
     display: flex;
     align-items: center;
     gap: 16px;
@@ -101,4 +101,61 @@
 
 .footer-form-btn-icon {
     fill: currentColor;
+}
+
+@media only screen and (min-width: 768px) {
+    .footer .container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        padding: 0 108px;
+        gap: 24px;
+    }
+    .footer-logo {
+        max-width: 264px;
+    }
+    .logo.light {
+        margin-bottom: 16px;
+        text-align: left;
+    }
+
+    .footer-text {
+        max-width: 264px;
+    }
+
+    .footer-blocktitle {
+        text-align: left;
+    }
+
+    .footer-form {
+        flex-direction: row;
+        gap: 24px;
+    }
+}
+
+@media only screen and (min-width: 1158px) {
+    .footer {
+        padding: 100px 141px;
+    }
+    .footer .container {
+        display: flex;
+        flex-wrap: nowrap;
+        padding: 0 15px;
+        justify-content: space-between;
+    }
+
+    .footer-socials {
+        /* margin-left: 120px; */
+        /* margin: 0 auto; */
+    }
+
+    .footer-form-block {
+        /* margin-left: auto; */
+    }
+
+    .footer-form {
+        display: flex;
+        align-items: center;
+        gap: 24px;
+    }
 }
