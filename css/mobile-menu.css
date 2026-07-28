@@ -43,9 +43,10 @@
 
     line-height: 1.11;
     letter-spacing: 0.02em;
+    color: #434455;
 }
 .mobile-menu-link.active {
-    color: #404bbf;
+    color: #4d5ae5;
 }
 .mobile-menu-address {
     margin-bottom: 48px;
