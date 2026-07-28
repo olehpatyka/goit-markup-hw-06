@@ -44,8 +44,6 @@ body:has(.overlay.is-open) {
     overflow-y: auto;
 }
 
-@media only screen and (min-width: 320px) {
-}
 @media only screen and (min-width: 768px) {
     .modal {
         width: 408px;
@@ -73,8 +71,7 @@ body:has(.overlay.is-open) {
     text-align: center;
     margin-bottom: 16px;
 }
-.modal-form {
-}
+
 .modal-field-wraper {
     display: flex;
     flex-direction: column;

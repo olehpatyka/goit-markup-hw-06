@@ -82,9 +82,6 @@ img {
     padding: 0 16px;
 }
 
-@media only screen and (min-width: 320px) {
-}
-
 @media only screen and (min-width: 768px) {
     .container {
         max-width: 768px;
@@ -118,8 +115,7 @@ img {
     display: flex;
     gap: 24px;
 }
-.socials-item {
-}
+
 .socials-link {
     display: flex;
     align-items: center;

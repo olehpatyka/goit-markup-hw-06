@@ -16,7 +16,7 @@
     gap: 72px;
 }
 .features-item {
-    max-width: 288px;
+    width: 288px;
 }
 .features-text {
     font-weight: 500;
@@ -26,18 +26,16 @@
     letter-spacing: 0.02em;
 }
 
-@media only screen and (min-width: 320px) {
-}
-
 @media only screen and (min-width: 768px) {
     .features-list {
         flex-direction: row;
         flex-wrap: wrap;
-        gap: 24px;
+        column-gap: 24px;
+        row-gap: 72px;
     }
 
     .features-item {
-        max-width: 356px;
+        width: 356px;
     }
 
     .features-title {
@@ -73,6 +71,6 @@
     }
 
     .features-item {
-        max-width: 264px;
+        width: 264px;
     }
 }
